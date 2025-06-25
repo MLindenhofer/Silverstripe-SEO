@@ -5,7 +5,7 @@ namespace CyberDuck\SEO\ORM;
 use SilverStripe\Control\Controller;
 use SilverStripe\Control\HTTP;
 use SilverStripe\Control\HTTPRequest;
-use SilverStripe\ORM\PaginatedList;
+use SilverStripe\Model\List\PaginatedList;
 
 class SeoPaginatedList extends PaginatedList
 {
