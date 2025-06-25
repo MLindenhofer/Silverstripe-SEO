@@ -26,7 +26,7 @@ use SilverStripe\Forms\TextareaField;
 use SilverStripe\Forms\DropdownField;
 use SilverStripe\Forms\NumericField;
 use SilverStripe\i18n\i18n;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\ORM\FieldType\DBField;
 use SilverStripe\ORM\PaginatedList;
 use SilverStripe\Security\Permission;
@@ -64,7 +64,7 @@ use SilverStripe\SiteConfig\SiteConfig;
  * related DataObject detection and other features. You can subclass, override, or
  * use YML config to compliment this class and create your own detailed Meta strategies.
  **/
-class SeoPageExtension extends DataExtension
+class SeoPageExtension extends Extension
 {
     /**
      * Our page fields

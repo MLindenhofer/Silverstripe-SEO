@@ -10,7 +10,7 @@ use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\HeaderField;
 use SilverStripe\Forms\LiteralField;
 use SilverStripe\Forms\TextField;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 
 /**
  * SeoSiteConfigExtension
@@ -21,7 +21,7 @@ use SilverStripe\ORM\DataExtension;
  * @license MIT License https://github.com/cyber-duck/silverstripe-seo/blob/master/LICENSE
  * @author  <andrewm@cyber-duck.co.uk>
  **/
-class SeoSiteConfigExtension extends DataExtension
+class SeoSiteConfigExtension extends Extension
 {
     /**
      * Array of extra CMS settings fields
